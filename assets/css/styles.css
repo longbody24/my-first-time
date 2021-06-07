@@ -1,0 +1,19 @@
+#header-container {
+    width: 100%;
+    background-color: red;
+    height: 100px;
+    padding; 10px 0 10px 0;
+}
+
+#logo img {
+    height: 100px;
+    width: auto;
+    float: left;
+}
+
+#main-nav {
+    float: left;
+    display: inline-block;
+    padding: 0px;
+    margin: 0px;
+}
