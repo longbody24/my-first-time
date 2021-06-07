@@ -20,4 +20,14 @@ body {
     float: left;
     display: inline-block;
     vertical-align: middle;
+    background-color: green;
+    margin: 40px;
+    text-decoration: none;
+}
+
+#main-nav a {
+    text-decoration: none;
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 0 50px;
 }
