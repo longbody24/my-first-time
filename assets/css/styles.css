@@ -6,8 +6,7 @@ body {
     max-width: 70%;
     height: 100px;
     margin: auto;
-    background-color: red;
-    
+    background-color: red;  
 }
 
 #logo img {
@@ -31,3 +30,20 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding: 0 50px;
 }
+
+#phone_icon {
+    color:#742e2a;
+    float: right;
+    background-color: orange;
+    margin: 40px 10px;
+    font-size: x-large;
+}
+
+#bsk_icon {
+      color:#742e2a;
+      float: right;
+      background-color: yellow;
+      margin: 40px 10px;
+      font-size: x-large;
+}
+
