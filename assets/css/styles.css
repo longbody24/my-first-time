@@ -3,11 +3,15 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: 0;
     font-weight: 300;
+    font-size: 20px;
+    padding: 20px 0 20px 0;
 }
 
 .header-container {
     width: 70%;
     margin: 0 auto;
+    max-height: 100px;
+    position: relative;
 }
 
 /* https://youtu.be/FEmysQARWFU Not sure if this is best practice to clean up codeof header */
@@ -20,8 +24,8 @@ header::after {
 
 .logo {
     float: left;
-    height: 100px;
-    width: auto;
+    max-width: auto;
+    max-height: 100px;
     padding: 10px 0;
 }
 
@@ -50,7 +54,6 @@ nav a {
     color: #742e2a;
     text-decoration: none;
     text-transform: uppercase;
-    font-size: 14px;
 }
 
 #bsk_icon {
@@ -60,7 +63,12 @@ nav a {
 
 #phone_icon {
     float: right;
-    margin-right; 70px;
+    margin-right; 20px;
+}
+
+#search_icon {
+    float: right;
+    margin-right; 20px;
 }
 
 nav a:hover {
@@ -69,4 +77,14 @@ nav a:hover {
 
 nav a:active {
     color: rgb(247, 7, 7);
+}
+
+/* search box tutorial and styling https://www.w3schools.com/howto/howto_css_searchbar.asp */
+.header-container input [type=text] {
+    float: right;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+
 }
