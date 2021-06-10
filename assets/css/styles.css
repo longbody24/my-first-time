@@ -205,3 +205,22 @@ nav a:active {
     height: 100%;
     border-radius: 50%;
 }
+
+/* footer stuff */
+
+.footer-container {
+    margin: 0 auto;
+    width: 70%;
+}
+
+.menu1 {
+    float:left
+}
+
+.menu3 {
+    margin: 0 auto;
+}
+
+.menu1 {
+    float:left
+}
