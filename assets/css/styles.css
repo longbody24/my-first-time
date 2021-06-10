@@ -7,6 +7,11 @@ body {
     padding: 20px 0 20px 0;
 }
 
+.page-container {
+    width: 70%;
+    margin: 0 auto;
+}
+
 .header-container {
     width: 70%;
     margin: 0 auto;
@@ -94,7 +99,6 @@ nav a:active {
 
 .section-container {
     display: flex;
-    width: 70%;
     margin: 0 auto;
     height: auto;
     position: relative;
@@ -125,32 +129,10 @@ nav a:active {
     height: auto;
 }
 
-#left-circle {
-    padding-top: 30px;
-    float: left;
-    width: 33%;
-}
-
-#left-circle-bg {
-    background: url('../images/main-logo.jpg') no-repeat center center;
-    height: 100%;
-    border-radius: 50%;
-
-}
-
-#right-circle {
-    float: right;
-    width: 33%;
-}
-
-#middle-circle {
-    float: left;
-    width: 33%;
-}
-
 #benefits {
     height: 400px;
 }
+
 #benefits h2 {
     text-align: center;
     margin: 20px 0;
@@ -160,30 +142,66 @@ nav a:active {
 #left-container {
     width: 300px;
     height: 300px;
-    padding: 30px;
+    padding: 10px;
     border-style: solid;
     border-color: #742e2a;
     border-width: 1px;
     border-radius: 50%;
+}
 
+#left-circle {
+    padding-top: 10px;
+    float: left;
+    width: 33%;
+}
+
+#left-circle-bg {
+    background: url('../images/main-logo.jpg') no-repeat center center;
+    height: 100%;
+    border-radius: 50%;
 }
 
 #right-container {
     width: 300px;
     height: 300px;
-    padding: 30px;
+    padding: 10px;
     border-style: solid;
     border-color: #742e2a;
     border-width: 1px;
+    border-radius: 50%;
+}
+
+#right-circle {
+    padding-top: 10px;
+    float: right;
+    width: 33%;
+}
+
+#right-circle-bg {
+    background: url('../images/main-logo.jpg') no-repeat center center;
+    height: 100%;
     border-radius: 50%;
 }
 
 #middle-container {
     width: 300px;
     height: 300px;
-    padding: 30px;
+    padding: 10px;
     border-style: solid;
     border-color: #742e2a;
     border-width: 1px;
-    margin: 0 auto;
+    border-radius: 50%;
+}
+
+#middle-circle {
+    padding-top: 10px;
+    float: left;
+    width: 33%;
+    
+}
+
+#middle-circle-bg {
+    background: url('../images/main-logo.jpg') no-repeat center center;
+    height: 100%;
+    border-radius: 50%;
 }
