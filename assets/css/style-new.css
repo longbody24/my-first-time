@@ -22,10 +22,10 @@ h1, h2 {
 
 #logo {
     float: left;
-    height: 150px;
+    height: 100px;
 }
 
-/* nav menu */
+/* nav menu styling */
 
 #nav-menu {
     font-size: 110%;
@@ -40,4 +40,21 @@ h1, h2 {
     float: right;
     list-style-type: none;
     margin-right: 30px;
+}
+
+#nav-menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#nav-menu, #logo {
+    line-height: 75px;
+}
+
+#nav-menu a:hover {
+    border-bottom: 1px solid #752e29;
+}
+
+.active {
+    border-bottom: 1px solid #752e29;
 }
