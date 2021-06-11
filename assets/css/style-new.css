@@ -16,6 +16,12 @@ body {
     background-color: #f2f2f2;
 }
 
+ hr {
+    border: 1px lightgray solid;
+    margin: 10px 0;
+    color: #3a3a3a;
+}
+
 /* benefit bar */
 
 #benefit-bar {
@@ -86,7 +92,7 @@ h1, h2 {
 /* Section Area Two Divs */
 
 #main-body {
-    background-color: green;
+    background-color: #fff;
     height: 400px;
     overflow: hidden;
     margin-top: 30px;
@@ -95,7 +101,7 @@ h1, h2 {
 #left-window {
     float:left;
     width: 50%;
-    background-color: red;
+    /*background-color: red;*/
     box-sizing: border-box;
     padding: 10px;
     height: inherit;
@@ -122,7 +128,7 @@ h1, h2 {
 #right-window {
     float:left;
     width: 50%;
-    background-color: yellow;
+    /*background-color: yellow;*/
     box-sizing: border-box;
     padding: 10px;
     height: inherit;
@@ -131,7 +137,7 @@ h1, h2 {
 #slideshow {
     text-align: center;
     height: 100%;
-    border: 1px solid black;
+    border: 0.5px solid black;
     box-sizing: border-box;
 }
 
