@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Roboto+Slab:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+body {
+    font-family: Roboto-Slab, sans-serif;
+    font-weight: 300;
+    color: #742e2a;
+}
+
+/* headings and logo */
+
+h1, h2 {
+    font-family: Lato, sans-serif;
+    text-transform: uppercase;
+    color: #3a3a3a;
+}
+
+#logo {
+    float: left;
+    height: 150px;
+}
+
+/* nav menu */
+
+#nav-menu {
+    font-size: 110%;
+    letter-spacing: 4px;
+ /* flex solution for automatically sequencing list items when using float right https://stackoverflow.com/questions/36251303/ordering-nav-list-items-when-using-float-right */  
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap:wrap;
+}
+
+#nav-menu li {
+    float: right;
+    list-style-type: none;
+    margin-right: 30px;
+}

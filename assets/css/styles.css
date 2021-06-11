@@ -1,14 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Roboto+Slab:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
 body {
+    display: flex;
     background:#f2f2f2;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Roboto-slab, sans-serif;
+    color: #742e2a;
     margin: 0;
     font-weight: 300;
     font-size: 20px;
     padding: 20px 0 20px 0;
+    width: 70%;
+}
+
+h1, h2 {
+    font-family: Lato, sans-serif;
+    text-transform: uppercase;
 }
 
 .page-container {
-    width: 70%;
+    max-width: 80%;
     margin: 0 auto;
 }
 
@@ -36,7 +52,7 @@ header::after {
 }
 
 #top-nav nav {
-    float: left;
+    float: right;
 }
 
 #icons nav {
@@ -98,7 +114,6 @@ nav a:active {
 /* body section */
 
 .section-container {
-    display: flex;
     margin: 0 auto;
     height: auto;
     position: relative;
