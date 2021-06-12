@@ -168,6 +168,7 @@ h2 {
 
 #slide-show figure img {
     width: 20%;
+    height: 400px;
     float: left;
 
 }
@@ -208,4 +209,90 @@ h2 {
     100% {
         left: -400%;
     }
+}
+
+/* Benefits Section */
+
+#benefit-container {
+    display: flex;
+    width: 70%;
+    margin: 0 auto;
+    height: auto;
+}
+
+#benefits {
+    height: 400px;
+}
+
+#benefits h2 {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 200%;
+}
+
+#left-container {
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+    border-style: solid;
+    border-color: #742e2a;
+    border-width: 1px;
+    border-radius: 50%;
+}
+
+#left-circle {
+    padding-top: 10px;
+    float: left;
+    width: 33%;
+}
+
+#left-circle-bg {
+    background: url('../images/main-logo.jpg') no-repeat center center;
+    height: 100%;
+    border-radius: 50%;
+}
+
+#right-container {
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+    border-style: solid;
+    border-color: #742e2a;
+    border-width: 1px;
+    border-radius: 50%;
+}
+
+#right-circle {
+    padding-top: 10px;
+    float: right;
+    width: 33%;
+}
+
+#right-circle-bg {
+    background: url('../images/main-logo.jpg') no-repeat center center;
+    height: 100%;
+    border-radius: 50%;
+}
+
+#middle-container {
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+    border-style: solid;
+    border-color: #742e2a;
+    border-width: 1px;
+    border-radius: 50%;
+}
+
+#middle-circle {
+    padding-top: 10px;
+    float: left;
+    width: 33%;
+    
+}
+
+#middle-circle-bg {
+    background: url('../images/main-logo.jpg') no-repeat center center;
+    height: 100%;
+    border-radius: 50%;
 }
